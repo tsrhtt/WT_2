@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17" class="java.beans.XMLDecoder">
+    <object class="entity.Kettle">
+        <void property="powerConsumption">
+            <int>1000</int>
+        </void>
+        <void property="weight">
+            <double>10</double>
+        </void>
+        <void property="capacity">
+            <int>32</int>
+        </void>
+        <void property="depth">
+            <int>60</int>
+        </void>
+        <void property="height">
+            <double>45.5</double>
+        </void>
+        <void property="width">
+            <double>59.5</double>
+        </void>
+        <void property="name">
+            <string>Electrolux OEF5C50Z</string>
+        </void>
+        <void property="price">
+            <double>1390.00</double>
+        </void>
+    </object>
+    <object class="entity.Kettle">
+        <void property="powerConsumption">
+            <int>1500</int>
+        </void>
+        <void property="weight">
+            <double>12</double>
+        </void>
+        <void property="capacity">
+            <int>33</int>
+        </void>
+        <void property="depth">
+            <int>60</int>
+        </void>
+        <void property="height">
+            <double>45</double>
+        </void>
+        <void property="width">
+            <double>68</double>
+        </void>
+        <void property="name">
+            <string>Gefest 602-02 Н1</string>
+        </void>
+        <void property="price">
+            <double>587.00</double>
+        </void>
+    </object>
+    <object class="entity.Kettle">
+        <void property="powerConsumption">
+            <int>2000</int>
+        </void>
+        <void property="weight">
+            <double>11</double>
+        </void>
+        <void property="capacity">
+            <int>33</int>
+        </void>
+        <void property="depth">
+            <int>60</int>
+        </void>
+        <void property="height">
+            <double>40</double>
+        </void>
+        <void property="width">
+            <double>70</double>
+        </void>
+        <void property="name">
+            <string>Bosch HIJ517YB0R</string>
+        </void>
+        <void property="price">
+            <double>1099.00</double>
+        </void>
+    </object>
+    <object class="entity.Laptop">
+        <void property="batteryCapacity">
+            <double>1</double>
+        </void>
+        <void property="OS">
+            <object class="java.lang.Enum" method="valueOf">
+                <class>entity.characteristics.OS</class>
+                <string>Windows</string>
+            </object>
+        </void>
+        <void property="memoryRom">
+            <int>4000</int>
+        </void>
+        <void property="systemMemory">
+            <int>1000</int>
+        </void>
+        <void property="cpu">
+            <double>1.2</double>
+        </void>
+        <void property="displayInches">
+            <int>18</int>
+        </void>
+        <void property="name">
+            <string>Lenovo IdeaPad 3 15ITL6 (82H800PHRE)</string>
+        </void>
+        <void property="price">
+            <double>1599.00</double>
+        </void>
+    </object>
+    <object class="entity.Laptop">
+        <void property="batteryCapacity">
+            <double>1.5</double>
+        </void>
+        <void property="OS">
+            <object class="java.lang.Enum" method="valueOf">
+                <class>entity.characteristics.OS</class>
+                <string>Linux</string>
+            </object>
+        </void>
+        <void property="memoryRom">
+            <int>8000</int>
+        </void>
+        <void property="systemMemory">
+            <int>1000</int>
+        </void>
+        <void property="cpu">
+            <double>2.2</double>
+        </void>
+        <void property="displayInches">
+            <int>19</int>
+        </void>
+        <void property="name">
+            <string>HP 15s-eq1047ur (1U3F3EA)</string>
+        </void>
+        <void property="price">
+            <double>2499.00</double>
+        </void>
+    </object>
+    <object class="entity.Laptop">
+        <void property="batteryCapacity">
+            <double>3</double>
+        </void>
+        <void property="OS">
+            <object class="java.lang.Enum" method="valueOf">
+                <class>entity.characteristics.OS</class>
+                <string>Windows</string>
+            </object>
+        </void>
+        <void property="memoryRom">
+            <int>8000</int>
+        </void>
+        <void property="systemMemory">
+            <int>1500</int>
+        </void>
+        <void property="cpu">
+            <double>3.2</double>
+        </void>
+        <void property="displayInches">
+            <int>22</int>
+        </void>
+        <void property="name">
+            <string>Asus Rog Strix G15 G513QM-HF121</string>
+        </void>
+        <void property="price">
+            <double>5999.00</double>
+        </void>
+    </object>
+    <object class="entity.Refrigerator">
+        <void property="powerConsumption">
+            <int>100</int>
+        </void>
+        <void property="weight">
+            <double>20</double>
+        </void>
+        <void property="freezerCapacity">
+            <int>10</int>
+        </void>
+        <void property="overallCapacity">
+            <double>300</double>
+        </void>
+        <void property="height">
+            <double>200</double>
+        </void>
+        <void property="width">
+            <double>70</double>
+        </void>
+        <void property="name">
+            <string>Indesit TIA 140</string>
+        </void>
+        <void property="price">
+            <double>659.00</double>
+        </void>
+    </object>
+    <object class="entity.Refrigerator">
+        <void property="powerConsumption">
+            <int>200</int>
+        </void>
+        <void property="weight">
+            <double>30</double>
+        </void>
+        <void property="freezerCapacity">
+            <int>15</int>
+        </void>
+        <void property="overallCapacity">
+            <double>300</double>
+        </void>
+        <void property="height">
+            <double>180</double>
+        </void>
+        <void property="width">
+            <double>80</double>
+        </void>
+        <void property="name">
+            <string>Beko RCSK310M20S</string>
+        </void>
+        <void property="price">
+            <double>829.00</double>
+        </void>
+    </object>
+    <object class="entity.Refrigerator">
+        <void property="powerConsumption">
+            <int>150</int>
+        </void>
+        <void property="weight">
+            <double>35</double>
+        </void>
+        <void property="freezerCapacity">
+            <int>20</int>
+        </void>
+        <void property="overallCapacity">
+            <double>350.5</double>
+        </void>
+        <void property="height">
+            <double>250</double>
+        </void>
+        <void property="width">
+            <double>75</double>
+        </void>
+        <void property="name">
+            <string>Samsung RB33A3440SA/WT</string>
+        </void>
+        <void property="price">
+            <double>1312.00</double>
+        </void>
+    </object>
+    <object class="entity.VacuumCleaner">
+        <void property="powerConsumption">
+            <int>100</int>
+        </void>
+        <void property="filterType">
+            <string>A</string>
+        </void>
+        <void property="bagType">
+            <string>A2</string>
+        </void>
+        <void property="wandType">
+            <string>all-in-one</string>
+        </void>
+        <void property="motorSpeedRegulation">
+            <int>3000</int>
+        </void>
+        <void property="cleaningWidth">
+            <int>20</int>
+        </void>
+        <void property="name">
+            <string>Bosch BWD41720</string>
+        </void>
+        <void property="price">
+            <double>629.00</double>
+        </void>
+    </object>
+    <object class="entity.VacuumCleaner">
+        <void property="powerConsumption">
+            <int>110</int>
+        </void>
+        <void property="filterType">
+            <string>B</string>
+        </void>
+        <void property="bagType">
+            <string>AA-89</string>
+        </void>
+        <void property="wandType">
+            <string>all-in-one</string>
+        </void>
+        <void property="motorSpeedRegulation">
+            <int>2900</int>
+        </void>
+        <void property="cleaningWidth">
+            <int>25</int>
+        </void>
+        <void property="name">
+            <string>Karcher WD 3 (1.629-821.0/1.629-801.0)</string>
+        </void>
+        <void property="price">
+            <double>288.00</double>
+        </void>
+    </object>
+    <object class="entity.VacuumCleaner">
+        <void property="powerConsumption">
+            <int>90</int>
+        </void>
+        <void property="filterType">
+            <string>C</string>
+        </void>
+        <void property="bagType">
+            <string>XX00</string>
+        </void>
+        <void property="wandType">
+            <string>all-in-one</string>
+        </void>
+        <void property="motorSpeedRegulation">
+            <int>2950</int>
+        </void>
+        <void property="cleaningWidth">
+            <int>30</int>
+        </void>
+        <void property="name">
+            <string>Deerma DX700</string>
+        </void>
+        <void property="price">
+            <double>129.00</double>
+        </void>
+    </object>
+    <object class="entity.TabletPC">
+        <void property="batteryCapacity">
+            <int>3</int>
+        </void>
+        <void property="displayInches">
+            <int>14</int>
+        </void>
+        <void property="memoryRom">
+            <int>8000</int>
+        </void>
+        <void property="flashMemoryCapacity">
+            <int>2</int>
+        </void>
+        <void property="color">
+            <object class="java.lang.Enum" method="valueOf">
+                <class>entity.characteristics.Color</class>
+                <string>Blue</string>
+            </object>
+        </void>
+        <void property="name">
+            <string>Lenovo Tab M8 TB-8505X</string>
+        </void>
+        <void property="price">
+            <double>389.00</double>
+        </void>
+    </object>
+    <object class="entity.TabletPC">
+        <void property="batteryCapacity">
+            <int>4</int>
+        </void>
+        <void property="displayInches">
+            <int>15</int>
+        </void>
+        <void property="memoryRom">
+            <int>8000</int>
+        </void>
+        <void property="flashMemoryCapacity">
+            <int>6</int>
+        </void>
+        <void property="color">
+            <object class="java.lang.Enum" method="valueOf">
+                <class>entity.characteristics.Color</class>
+                <string>Red</string>
+            </object>
+        </void>
+        <void property="name">
+            <string>Samsung Galaxy Tab A7 Lite</string>
+        </void>
+        <void property="price">
+            <double>678.00</double>
+        </void>
+    </object>
+    <object class="entity.TabletPC">
+        <void property="batteryCapacity">
+            <int>5</int>
+        </void>
+        <void property="displayInches">
+            <int>16</int>
+        </void>
+        <void property="memoryRom">
+            <int>16000</int>
+        </void>
+        <void property="flashMemoryCapacity">
+            <int>8</int>
+        </void>
+        <void property="color">
+            <object class="java.lang.Enum" method="valueOf">
+                <class>entity.characteristics.Color</class>
+                <string>Green</string>
+            </object>
+        </void>
+        <void property="name">
+            <string>Lenovo Tab P11 TB-J606L</string>
+        </void>
+        <void property="price">
+            <double>1019.00</double>
+        </void>
+    </object>
+    <object class="entity.Speakers">
+        <void property="powerConsumption">
+            <int>15</int>
+        </void>
+        <void property="numberOfSpeakers">
+            <int>2</int>
+        </void>
+        <void property="frequencyRangeMin">
+            <double>2</double>
+        </void>
+        <void property="frequencyRangeMax">
+            <double>4</double>
+        </void>
+        <void property="cordLength">
+            <double>2</double>
+        </void>
+        <void property="name">
+            <string>Sven MS-2050BL</string>
+        </void>
+        <void property="price">
+            <double>230.00</double>
+        </void>
+    </object>
+    <object class="entity.Speakers">
+        <void property="powerConsumption">
+            <int>20</int>
+        </void>
+        <void property="numberOfSpeakers">
+            <int>3</int>
+        </void>
+        <void property="frequencyRangeMin">
+            <double>3</double>
+        </void>
+        <void property="frequencyRangeMax">
+            <double>4</double>
+        </void>
+        <void property="cordLength">
+            <double>3</double>
+        </void>
+        <void property="name">
+            <string>Sven HT-200</string>
+        </void>
+        <void property="price">
+            <double>319.00</double>
+        </void>
+    </object>
+    <object class="entity.Speakers">
+        <void property="powerConsumption">
+            <int>17</int>
+        </void>
+        <void property="numberOfSpeakers">
+            <int>4</int>
+        </void>
+        <void property="frequencyRangeMin">
+            <double>2</double>
+        </void>
+        <void property="frequencyRangeMax">
+            <double>3.5</double>
+        </void>
+        <void property="cordLength">
+            <double>4</double>
+        </void>
+        <void property="name">
+            <string>Sven HT-210</string>
+        </void>
+        <void property="price">
+            <double>410.00</double>
+        </void>
+    </object>
+</java>
